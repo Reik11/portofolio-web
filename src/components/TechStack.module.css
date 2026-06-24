@@ -50,3 +50,28 @@
   font-size: 0.9rem;
   color: var(--text-secondary);
 }
+
+/* Mobile Scrollable Tech Stack */
+@media (max-width: 768px) {
+  .grid {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    padding-bottom: 1rem;
+    gap: 1rem;
+    -webkit-overflow-scrolling: touch;
+    /* Menyembunyikan scrollbar bawaan agar lebih rapi (opsional) */
+    scrollbar-width: none; 
+  }
+  
+  .grid::-webkit-scrollbar {
+    display: none;
+  }
+
+  .card {
+    flex: 0 0 auto;
+    width: 130px;
+    scroll-snap-align: center;
+  }
+}
