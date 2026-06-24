@@ -29,7 +29,7 @@ export const projects = [
   {
     id: "manajemen-apotek",
     title: "ApotekPOS - Sistem Manajemen Apotek",
-    description: "Sistem Manajemen Apotek Terintegrasi & Modern dengan fitur kasir POS dan AI.",
+    description: "🚀 [Coming Soon] Sistem Manajemen Apotek Terintegrasi & Modern dengan fitur kasir POS dan AI.",
     longDescription: "ApotekPOS adalah sistem informasi manajemen apotek terpadu yang dirancang untuk mempermudah proses operasional. Aplikasi ini memiliki antarmuka yang komprehensif, mulai dari sistem kasir (web) hingga aplikasi mobile khusus untuk pasien melakukan pemesanan obat dan mengelola profil mereka.",
     features: ["Manajemen Inventaris dengan sistem FIFO", "Kasir POS terintegrasi dengan struk digital", "Pemesanan online langsung oleh pasien", "Pembacaan otomatis OCR untuk resep dokter", "Manajemen Profil & Riwayat Pasien (Mobile)"],
     tech: ["Flutter", "Next.js", "OCR / AI"]
