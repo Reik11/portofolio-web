@@ -13,8 +13,12 @@ export default async function ProjectDetail({ params }) {
         <p style={{ color: 'var(--text-secondary)', fontSize: '1.2rem', marginBottom: '2rem' }}>
           Ini adalah halaman detail dinamis untuk proyek {id}. Anda dapat menambahkan deskripsi lengkap, fitur-fitur, gambar galeri, dan tautan repositori (GitHub) di sini.
         </p>
-        <div style={{ height: '300px', background: 'rgba(255,255,255,0.05)', borderRadius: '15px', display: 'flex', alignItems: 'center', justifyContent: 'center', color: 'var(--text-secondary)' }}>
-          Gambar / Konten Proyek
+        <div style={{ width: '100%', aspectRatio: '16/9', borderRadius: '15px', overflow: 'hidden', background: 'rgba(255,255,255,0.05)', display: 'flex', alignItems: 'center', justifyContent: 'center', padding: '1rem' }}>
+          <img 
+            src={`/images/${id}.jpg`} 
+            alt={`Screenshot ${id}`}
+            style={{ maxWidth: '100%', maxHeight: '100%', display: 'block', objectFit: 'contain' }}
+          />
         </div>
       </div>
     </div>
