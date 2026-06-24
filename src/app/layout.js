@@ -12,9 +12,9 @@ const outfit = Outfit({
 });
 
 export const metadata = {
-  title: "Muhammad Rizqi Abdi Ghifari | Web & Mobile Developer",
-  description: "Portofolio profesional Muhammad Rizqi Abdi Ghifari, seorang pengembang web dan aplikasi mobile yang berfokus pada Flutter, Next.js, dan Tailwind CSS.",
-  keywords: ["Muhammad Rizqi Abdi Ghifari", "Portofolio Muhammad Rizqi Abdi Ghifari", "Web Developer Indonesia", "Mobile Developer", "Flutter Developer", "Next.js"],
+  title: "Muhammad Rizqi Abdi Ghifari (Ghifa) | Web & Mobile Developer",
+  description: "Portofolio profesional Muhammad Rizqi Abdi Ghifari (Ghifa), seorang pengembang web dan aplikasi mobile yang berfokus pada Flutter, Next.js, dan Tailwind CSS.",
+  keywords: ["Ghifa", "Muhammad Rizqi Abdi Ghifari", "M.R.A. Ghifari", "M.R. Abdi Ghifari", "m.r.a.ghifari", "m.r.abdi ghifari", "Portofolio Ghifa", "Web Developer Indonesia", "Mobile Developer", "Flutter Developer", "Next.js"],
 };
 
 export default function RootLayout({ children }) {
